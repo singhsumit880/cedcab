@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=IBM+Plex+Sans:wght@700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+.bg {
+  background: url("image/bg.jpg");
+  /* background: url('https://executive-taxi.co.uk/wp-content/uploads/2018/05/photodune-3549754-businessman-in-new-york-m.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+#formleft {
+  margin-left: 200px;
+  width: 30%;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 10px;
+  height: auto;
+  
+}
+
+@media only screen and (max-width: 800px) {
+  #formleft {
+    margin-left: 200px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  #formleft {
+    margin-left: 200px;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    border-radius: 10px;
+    height: auto;
+    margin: auto !important;
+    margin-top: 20px !important;
+    -webkit-box-shadow: -11px -2px 159px 58px rgba(247,247,10,.5);
+-moz-box-shadow: -11px -2px 159px 58px rgba(247,247,10,.4);
+box-shadow: -11px -2px 159px 58px rgba(247,247,10,.3);
+  }
+
+  .bg {
+    background-image: linear-gradient(to right, #f9d423 0%, #f8c129 100%);
+  }
+
+}
+
+select {
+  -webkit-appearance: none;
+  height: auto;
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 5px;
+}
+
+.form-control {
+  background-color: transparent;
+  border-radius: 5px;
+  outline: none;
+  font-family: 'Andika New Basic', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+label,input,p {
+  font-family: 'Andika New Basic', sans-serif;
+font-family: 'IBM Plex Sans', sans-serif;
+}
+
+input {
+  background: rgba(255, 255, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.55);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  border-radius: 5px;
+  color: black;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+  background: rgba(74, 74, 74, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+select:active {
+  background: transparent;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 2px 30px 2px 2px;
+  border: none;
+
+}
+
+option {
+  background: rgb(253, 202, 77, 0.5);
+  box-shadow: 0 8px 32px 0 rgb(255, 234, 45);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+input[type="number"]{
+  padding-left: 12px;
+}
+h1,h4{
+  font-family: 'IBM Plex Sans', sans-serif;
+  
+}
+
+input[type="number"]:active{
+  background: rgb(253, 202, 77, 0.5);
+  box-shadow: 0 8px 32px 0 rgb(255, 234, 45);
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+@media only screen and (max-width: 230px) {
+.shrink{
+  display: none;
+}
+}
+
+* {box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Set a style for the submit button */
+.btn1 {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+button{
+  margin: 10px;
+}
+.nav-link,a{
+  color: black;
+  font-family: 'IBM Plex Sans', sans-serif;
+
+}
+.navbg{
+  text-align: center;
+  /* background: rgba( 250, 253, 2, 0.25 ); */
+  background:rgb(234,173,28,0.90);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 7.0px );
+  -webkit-backdrop-filter: blur( 7.0px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+hr.line{
+  border-top: 3px solid rgba(253, 228, 0, 0.973); 
+}
+
